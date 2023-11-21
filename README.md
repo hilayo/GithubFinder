@@ -1,6 +1,15 @@
-# source from:
+**#react project**
+
+**click here to see the app (server vercel):**
+https://github-finder-zeta-rosy.vercel.app/
+
+
+# source from udemy course:
 https://github.com/bradtraversy/github-finder-app
 clean and move all from githubContext to githubReducer
+dispach from componnent
+move all logic to action.js and in component call the function in action.js and then dispatch from component (not from context)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
