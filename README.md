@@ -1,3 +1,6 @@
+# source from:
+https://github.com/bradtraversy/github-finder-app
+clean and move all from githubContext to githubReducer
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
