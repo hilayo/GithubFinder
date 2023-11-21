@@ -6,12 +6,13 @@ import { FaCodepen,FaStore,FaUserFriends,FaUsers } from 'react-icons/fa'
 import Spinner from '../component/layout/Spinner'
 import ReposList from '../component/repos/ReposList'
 function User() {
-    const {getUser,user,loading,getUserRepos,repos}=useContext(GithubContext)
+    const {getUser,user,loading,getUserRepos,repos,getUserAndRepos}=useContext(GithubContext)
 
     const params=useParams()
     useEffect(()=>{
-        getUser(params.login);
-        getUserRepos(params.login);
+      //  getUser(params.login);
+      //  getUserRepos(params.login);
+      getUserAndRepos(params.login)
     },[])
     const {
         name,
